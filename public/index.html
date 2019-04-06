@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+<body>
+
+<h1>Actors</h1>
+
+<h2>Insert Actor</h2>
+<form id="insert_actor">
+	<input type="text" name="actor_name" placeholder="give an actor name">
+
+	<button>insert the actor</button>
+</form>
+
+<h2>Update Actor</h2>
+<form id="update_actor">
+	<input type="number" name="actor_id" placeholder="give an actor id">
+
+	<input type="text" name="actor_name" placeholder="give an actor a name">
+
+	<button>update the actor</button>
+</form>
+
+<div></div>
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/assets/js/actors-select.js"></script>
+  <script type="text/javascript" src="/assets/js/actors-insert.js"></script>
+  <script type="text/javascript" src="/assets/js/actors-update.js"></script>
+  <script type="text/javascript" src="/assets/js/actors-delete.js"></script>
+
+
+<script type="text/javascript">
+	getActors();
+</script>
+</body>
+</html>
+
+
+
